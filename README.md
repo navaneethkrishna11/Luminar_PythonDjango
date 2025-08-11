@@ -1,0 +1,1 @@
+This repository contains programs developed during my internship at Luminar Technolab, Cochin, focusing on Python and Django. It includes my written code along with minimal additional logic to enhance functionality.
