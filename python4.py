@@ -1,0 +1,7 @@
+num1=int(input("enter the value 1: "))
+num2=int(input("enter the value 2: "))
+print('sum :',num1+num2)
+print('sub :',num1-num2)
+print('pdt :',num1*num2)
+print('div :',num1/num2)
+print('sum of squares : ',num1**2 + num2**2)
