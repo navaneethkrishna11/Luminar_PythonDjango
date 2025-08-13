@@ -77,6 +77,11 @@ l=[1,1,1,2,4,4,4,2,6,5,9]
 n=list(set(l))
 print(n)
 
+l=[1,1,1,2,4,4,4,2,6,5,9]
+new=[]
+new=[new.append(i) or i for i in l if i not in new]
+print(new)
+
 l=[10,20,30,40]
 a={i:i for i in l}
 print("dict : ",a)
