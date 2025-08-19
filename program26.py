@@ -1,8 +1,8 @@
 def s(a,b):
     s=a+b
     print(s)
-
 s(3,4)
+
 
 def simple(p,r,t):
     si=(p*r*t)/100
