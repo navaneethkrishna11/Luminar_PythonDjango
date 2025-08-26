@@ -25,7 +25,6 @@ l.sort()
 print("max value method 1 : ",l[-1])
 l=[12,45,67,89,23]
 m=l[0]
-b=[]
 for i in l:
     if i>m:
         m=i

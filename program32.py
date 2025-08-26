@@ -1,4 +1,3 @@
-
 #Given a list
 l=[12,-4,78,-34,90,45,16,26,-2,-11,3]
 #sum of positive even numbers
