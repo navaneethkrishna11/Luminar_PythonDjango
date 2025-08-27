@@ -1,7 +1,7 @@
 # 1.Answer any one of the following(5 marks)
 """
-# Function?Explain with example?(5 marks)
-# ANS) Functions are block of code to execute a particular statement.
+Function?Explain with example?(5 marks)
+ ANS) Functions are block of code to execute a particular statement.
        There have two sides. First is to create a function that means function definition and second is to call the function.
        We use function for using the particular code repeatdly in our programs.
        There are different types of functions like built in, custom function,lambda function.
@@ -9,7 +9,7 @@ eg: def add (a,b):
       print(a+b)
     
     add(20,30)
-#here function is defined at beginning and called at last. so the values are passed to the function using the function call.
+here function is defined at beginning and called at last. so the values are passed to the function using the function call.
 """
 # 2. Answer any one of the following (2 marks)
 """

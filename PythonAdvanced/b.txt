@@ -1,0 +1,6 @@
+Line2 is changed
+Svelte has consistently been the most admired by developers in recent years,
+thanks to its elegant API and its creators� discipline in saying �no� 
+to clutter.In this month�s featured article, Senior Developer 
+Facundo Corradini breaks down Svelte 5�s new Runes-based reactivity 
+and other upgrades that make Svelte smaller, faster, and more explicit.
