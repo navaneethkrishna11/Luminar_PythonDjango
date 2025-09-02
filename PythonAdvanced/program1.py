@@ -1,8 +1,8 @@
-# f=open("k.txt",'r')
-# s=f.read()
-# print(s) #read all data from file
-# pa=f.readlines()
-# print(pa) #read in list format
+f=open("k.txt",'r')
+s=f.read()
+print(s) #read all data from file
+pa=f.readlines()
+print(pa) #read in list format
 """
 read() : read all the lines 
 read(size) : read that much number of characters

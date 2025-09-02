@@ -34,9 +34,12 @@ print('words contain z :',m)
 #
 # #Q7.Check whether the given string contains only lowercase, uppercase,digits and underscore
 # import re
-s="57767"
-m=re.match(r'[a-zA-Z0-9_]+',s)
-print('match : ',m.group())
+s="57767fafafaf"
+m=re.search(r'^\w+$',s)
+if m:
+    print('match : ',m.group())
+else:
+    print('error!')
 
 # # #Q8.Write a program to extract year/month/date from a url
 s="www.washingtonpost.com/news/football-insider/wp/2016/09/02"
