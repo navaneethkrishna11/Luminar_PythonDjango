@@ -17,8 +17,6 @@ while output==0:
     except ValueError:
         print('valueError')
 
-
-
 try:
     a=input("enter the file : ")
     n=open(a,'r')
