@@ -47,21 +47,23 @@ while 1:
         a=Students()
         s.append(a)
     elif ch==2:
-        a.display()
+        if not s :
+            print('no records !!')
+        else:
+            for i in s:
+                i.display()
     elif ch==3:
         acn=int(input("enter delete , roll number :"))
         for i in s:
-            if acn == i.studid :
+            if i.studid==acn :
                 s.remove(i)
                 print('removed!')
                 break
-            else:
-                print('nothg to remove!!')
     elif ch==4:
         acn=int(input("enter the roll number to update : "))
         for i in s:
-            if acn==i.studid:
-                a.update()
+            if i.studid==acn:
+                i.update()
                 print('updated!!')
                 break
 
@@ -69,8 +71,8 @@ while 1:
     elif ch==5:
         acn = input("enter the roll number to update : ")
         for i in s:
-            if acn == i.studname:
-                a.display()
+            if i.studname==acn:
+                i.display()
 
         print('no user ')
     elif ch==6:
