@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sixth</title>
+    <style>
+    table{
+        width:70%;
+        text-align:center;
+        font-family:times;
+        background-color:white;
+        }
+    table,th,td{
+        border:1px solid brown;
+        border-collapse:collapse;
+        padding:20px;
+        }
+    #one{
+    background-color:silver;
+    }
+    </style>
+</head>
+<!--Program for creating table-->
+<body style="background-color:lightyellow;padding:20px;">
+<h1>First Table</h1>
+<table>
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Place</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Navaneeth</td>
+        <td>21</td>
+        <td>Tirur</td>
+    </tr>
+    <tr>
+        <td>Joppen</td>
+        <td>22</td>
+        <td>Idukki</td>
+    </tr>
+    <tr>
+        <td>Nevin</td>
+        <td>22</td>
+        <td>Petta</td>
+    </tr>
+    </tbody>
+</table>
+<br>
+<h1>Table with colspan</h1>
+<table>
+    <tr>
+        <th>Name</th>
+        <th colspan="2">Telephone</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Kiran</td>
+        <td>2255</td>
+        <td>369</td>
+        <td>22</td>
+    </tr>
+    <tr>
+        <td>Babu</td>
+        <td>2255</td>
+        <td>369</td>
+        <td>22</td>
+    </tr>
+</table>
+<br>
+<h1>Table with rowspan</h1>
+<table>
+    <tr>
+        <th>Name</th>
+        <td>Arun</td>
+    </tr>
+
+    <tr>
+        <th rowspan="2">Telephone</th>
+        <td>2255</td>
+        </tr>
+    <tr>
+        <td>0369</td>
+    </tr>
+
+<!--    Rowspan give like this or else it will mix, bcz first tr giving tym it is create one row and nxt row for next data -->
+    <tr>
+        <th>Age</th>
+        <td>23</td>
+    </tr>
+
+</table>
+<br>
+<h1>Classwork Table : 1</h1>
+<table style="background-color:white;">
+    <thead>
+    <th colspan="6">Time Table</th>
+    </thead>
+    <tbody>
+    <tr>
+         <th rowspan="7"> Hours</th>
+        <th>Mon</th>
+         <th>Tue</th>
+         <th>Wed</th>
+         <th>Thur</th>
+         <th>Fri</th>
+    </tr>
+    <tr>
+        <td>Science</td>
+        <td>Maths</td>
+        <td>Science</td>
+        <td>Maths</td>
+        <td>Arts</td>
+    </tr>
+     <tr>
+        <td>Science</td>
+        <td>Maths</td>
+        <td>Science</td>
+        <td>Maths</td>
+        <td>Arts</td>
+    </tr>
+    <tr>
+        <th colspan="5">Lunch</th>
+    </tr>
+    <tr>
+        <td>Science</td>
+        <td>Maths</td>
+        <td>Science</td>
+        <td>Maths</td>
+        <td rowspan="2">Projects</td>
+    </tr>
+     <tr>
+        <td>Science</td>
+        <td>Maths</td>
+        <td>Science</td>
+        <td>Maths</td>
+    </tr>
+    </tbody>
+</table>
+<br>
+<h1>Classwork table : 2</h1>
+<h4 style="position:relative;left:13%;">Invoice</h4>
+<table style="width:5%; border:1px solid black;">
+    <thead>
+     <tr id="one">
+         <th id="two">Item/Desc</th>
+         <th>Qty.</th>
+         <th>@</th>
+         <th>Price</th>
+     </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td id="two">PaperClips(Box)</td>
+        <td>100</td>
+        <td>1.15</td>
+        <td>115.00</td>
+    </tr>
+    <tr >
+        <td id="two">PaperClips(Box)</td>
+        <td>100</td>
+        <td>1.15</td>
+        <td>115.00</td>
+    </tr>
+    <tr>
+        <td>PaperClips(Box)</td>
+        <td>100</td>
+        <td>1.15</td>
+        <td>115.00</td>
+    </tr>
+    <tr>
+        <td id="one" colspan="3">SubTotal</td>
+        <td>610</td>
+    </tr>
+    <tr>
+        <td id="one" colspan="2">Tax</td>
+        <td>7%</td>
+        <td>42.16</td>
+    </tr>
+    <tr>
+        <td id="one" colspan="3">Total</td>
+        <td>653.64</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

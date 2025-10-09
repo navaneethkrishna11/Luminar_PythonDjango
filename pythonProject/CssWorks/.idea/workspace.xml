@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="848c7276-9641-4720-85d1-db3bc3275b6b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../HTML_WORKS/eight.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML_WORKS/fifth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML_WORKS/fourth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML_WORKS/hw1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML_WORKS/ninth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML_WORKS/pythonpage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML_WORKS/sa1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML_WORKS/second.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML_WORKS/seventh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML_WORKS/sixth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML_WORKS/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML_WORKS/third.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HTML_WORKS/val1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bootstrap/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bootstrap/.idea/Bootstrap.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bootstrap/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bootstrap/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bootstrap/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bootstrap/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bootstrap/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bootstrap/bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bootstrap/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bootstrap/grid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/CssWorks.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Font.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hw.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/border.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/display.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/margin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/position.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/positionhw.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HTML_WORKS/first.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../HTML_WORKS/first.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonPrograms" beforeDir="false" afterPath="$PROJECT_DIR$/../../PythonPrograms" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="336C3qWNiBCrezkZ6euvVOHBMdO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "N:/Luminar/pythonProject/Bootstrap"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="CssWorks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="848c7276-9641-4720-85d1-db3bc3275b6b" name="Changes" comment="" />
+      <created>1758627939230</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758627939230</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
