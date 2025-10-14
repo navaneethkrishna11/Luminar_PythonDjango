@@ -111,3 +111,9 @@ print(a.fetchall())
 
 # alter table employee rename coloumn to email;
 # UPDATE employee set coloumn="naa@gmail.com" where empid=100;
+
+# rename
+# k=con.execute('alter table employee rename to employee1')
+# print(k.fetchall())
+
+
