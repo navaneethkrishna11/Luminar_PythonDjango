@@ -1,5 +1,5 @@
 """
-URL configuration for project1 project.
+URL configuration for demopro project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.2/topics/http/urls/
@@ -16,10 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from app1 import views
+from myapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.home,name='home'),
-    path('index',views.index,name='index'),
-    path('new',views.new,name='new')
+    path('first',views.first,name='first'),
+    path('second', views.second, name='second'),
+
 ]
