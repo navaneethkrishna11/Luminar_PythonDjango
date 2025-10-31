@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+   </head>
+<body>
+{% extends 'base.html' %}
+{% block contents %}
+{% load crispy_forms_tags %}
+<div style="display: flex; justify-content: center; align-items: center; min-height: 70vh;" class="pt-3">
+<div style="border:1px solid black; border-radius:12px;padding:40px;background-color:#C5C7BC;width:50%;" >
+   <h1 class="text-center p-3">Register</h1>
+    <form method="post">
+        {% csrf_token %}
+    {{form|crispy}}
+     <input type="submit" class="btn btn-primary">
+    </form>
+    {% if result %}
+<!--    <h4>sum = {{result}}</h4>-->
+    {% endif %}
+</div>
+</div>
+{% endblock %}
+</body>
+</html>
