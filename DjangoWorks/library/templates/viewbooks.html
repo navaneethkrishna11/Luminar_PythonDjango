@@ -16,6 +16,8 @@
         <th>Author</th>
         <th>Price</th>
         <th>Pages</th>
+        <th>Image
+        <th>Actions</th>
     </tr>
     {% for i in books %}
     <tr>
@@ -23,6 +25,8 @@
         <td> {{i.author}}</td>
         <td> {{i.page}}</td>
         <td> {{i.price}}</td>
+        <td><img src="{{i.image.url}}" width="100px" height="100px"/></td>
+        <td ><button class="btn btn-danger m-3">Details</button><button class="btn btn-danger m-3">Delete</button><button class="btn btn-danger m-3">Edit</button></td>
     </tr>
     {% endfor %}
 </table>

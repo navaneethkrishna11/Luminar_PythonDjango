@@ -10,7 +10,7 @@
 {% load crispy_forms_tags %}
 <h1 style="text-align:center;padding:30px;">Add  Books</h1>
 <div class="p-4 border border-black m-3">
-<form method="post">
+<form method="post" enctype="multipart/form-data">
     {% csrf_token %}
     {{form|crispy}}
      <input type="submit" class="btn btn-success d-flex justify-content-center">

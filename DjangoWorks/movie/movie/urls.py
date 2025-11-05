@@ -21,7 +21,12 @@ from movieapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     # path('', include('movieapp.urls')),
-    path('', views.home, name='home'),
-    path('addmovie', views.addmovie, name='addmovie'),
+    path('', views.Home.as_view(), name='home'),
+    path('addmovie', views.Addmovie.as_view(), name='addmovie'),
 
 ]
+from django.conf.urls.static import static
+from django.conf import settings
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)

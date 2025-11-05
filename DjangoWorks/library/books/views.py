@@ -19,7 +19,7 @@ class AddBooks(View):
         context = {'form': form_instance}
         return render(request,'addbooks.html',context)
     def post(self,request):
-        form_instance=Addbook(request.POST)
+        form_instance=Addbook(request.POST,request.FILES)
         if form_instance.is_valid():
             # data=form_instance.cleaned_data
             # print(data)
@@ -32,3 +32,13 @@ class AddBooks(View):
             # b.save()
             form_instance.save()
             return render(request,'addbooks.html')
+
+class EditView(View):
+    def get(self,request):
+        return render(request,'edit.html')
+class DetailsView(View):
+    def get(self, request):
+        return render(request, 'details.html')
+
+class Delete(View):
+    pass

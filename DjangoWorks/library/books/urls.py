@@ -21,7 +21,9 @@ app_name='books'
 urlpatterns = [
    path('',views.Home.as_view(),name='home'),
    path('viewbook', views.ViewBooks.as_view(), name='viewbook'),
-   path('addbooks', views.AddBooks.as_view(), name='addbooks')
+   path('addbooks', views.AddBooks.as_view(), name='addbooks'),
+   path('edit', views.EditView.as_view(), name='editview'),
+   path('details', views.DetailsView.as_view(), name='detailview'),
 
 
 ]

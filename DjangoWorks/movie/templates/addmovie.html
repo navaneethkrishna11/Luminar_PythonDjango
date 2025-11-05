@@ -1,5 +1,14 @@
 {%extends 'base.html' %}
-
+{% load crispy_forms_tags %}
 {%block contents %}
-<h1 style="text-align:center;padding:30px;">hello Django</h1>
+<div class="m-4 p-4">
+<h1 style="text-align:center;padding:30px;">Add Movie</h1>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{form|crispy}}
+    <div class="mb-3">
+        <input type="submit">
+    </div>
+</form>
+</div>
 {%endblock %}
