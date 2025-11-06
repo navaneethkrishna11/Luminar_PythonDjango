@@ -18,12 +18,12 @@ from django.contrib import admin
 from django.urls import path
 from books import views
 app_name='books'
+
 urlpatterns = [
    path('',views.Home.as_view(),name='home'),
    path('viewbook', views.ViewBooks.as_view(), name='viewbook'),
    path('addbooks', views.AddBooks.as_view(), name='addbooks'),
-   path('edit', views.EditView.as_view(), name='editview'),
-   path('details', views.DetailsView.as_view(), name='detailview'),
-
-
+   path('edit/<int:i>', views.EditView.as_view(), name='editview'),
+   path('details/<int:i>', views.DetailsView.as_view(), name='detailview'),
+   path('delete/<int:i>', views.DeleteView.as_view(), name='deleteview'),
 ]

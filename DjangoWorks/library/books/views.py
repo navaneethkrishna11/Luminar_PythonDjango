@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 from django.http import HttpResponse
 from django.views import View
 from books.forms import Addbook
@@ -34,11 +34,28 @@ class AddBooks(View):
             return render(request,'addbooks.html')
 
 class EditView(View):
-    def get(self,request):
-        return render(request,'edit.html')
-class DetailsView(View):
-    def get(self, request):
-        return render(request, 'details.html')
+    def post(self,request,i):
+        b=Book.objects.get(id=i)
+        form_instance=Addbook(request.POST,request.FILES,instance=b)
+        if form_instance.is_valid():
+            form_instance.save()
+            return redirect('books:viewbook')
+    def get(self,request,i):
+        b=Book.objects.get(id=i)
+        form_instance = Addbook(instance=b)
+        context = {'form': form_instance}
+        return render(request,'edit.html',context)
 
-class Delete(View):
-    pass
+class DetailsView(View):
+    def get(self, request,i):
+        # print(i)
+        b=Book.objects.get(id=i)  #dynamic routing
+        context={'book':b}
+        return render(request, 'details.html',context)
+
+class DeleteView(View):
+    def get(self,request,i):
+        print(i)
+        b=Book.objects.get(id=i)
+        b.delete()
+        return redirect('books:viewbooks')

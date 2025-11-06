@@ -2,9 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Edit</title>
 </head>
 <body>
-
+{%extends 'base.html' %}
+{%block contents %}
+{% load crispy_forms_tags %}
+<h1 style="text-align:center;padding:30px;">Edit Books</h1>
+<div class="p-4 border border-black m-3">
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{form|crispy}}
+     <input type="submit" class="btn btn-success d-flex justify-content-center">
+</form>
+</div>
+{%endblock %}
 </body>
 </html>
