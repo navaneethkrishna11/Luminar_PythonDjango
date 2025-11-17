@@ -20,3 +20,20 @@ class Addmovie(View):
         return render(request,'addmovie.html',context)
 
 
+class ViewMore(View):
+    def get(self,request,i):
+        b = Movie.objects.get(id=i)
+        context = {'book': b}
+        return render(request, 'viewmore.html', context)
+
+class EditView(View):
+    def post(self,request):
+        pass
+    def get(self,request):
+        pass
+
+class UpdateView(View):
+    def post(self,request):
+        pass
+    def get(self,request):
+        pass

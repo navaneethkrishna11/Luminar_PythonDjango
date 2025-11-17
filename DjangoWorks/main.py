@@ -28,14 +28,3 @@
 # s = input()
 # print(compress(s))
 
-def max_subarray_sum(a):
-    max_so_far = a[0]
-    curr = a[0]
-    for i in range(1, len(a)):
-        curr = max(a[i], curr + a[i])
-        max_so_far = max(max_so_far, curr)
-    print(max_so_far)
-
-a = list(map(int, input().split()))
-max_subarray_sum(a)
-

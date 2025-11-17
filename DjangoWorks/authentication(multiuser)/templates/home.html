@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block contents %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+<div class="text-center p-4">
+    <h1>Home page</h1>
+    {% if user.is_authenticated %}
+    {{user.username}}
+    {% else %}
+    guest
+    {% endif %}
+</div>
+
+</body>
+</html>
+{% endblock %}

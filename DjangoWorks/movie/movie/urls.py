@@ -23,6 +23,9 @@ urlpatterns = [
     # path('', include('movieapp.urls')),
     path('', views.Home.as_view(), name='home'),
     path('addmovie', views.Addmovie.as_view(), name='addmovie'),
+    path('viewmore/<int:i>', views.ViewMore.as_view(), name='viewmore'),
+    path('edit/<int:i>', views.EditView.as_view(), name='editview'),
+
 
 ]
 from django.conf.urls.static import static
