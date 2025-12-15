@@ -1,0 +1,85 @@
+1) What is django? What are built in functionalities provided by django?
+ Django is a high-level Python web framework that helps build secure, scalable applications quickly.
+ It provides built-in features like an ORM for database handling, an admin panel for managing data,
+ URL routing, authentication, session management, form handling, middleware support, and strong security
+ protections. These reduce boilerplate code and let developers focus on core application logic.
+
+2) Explain MVT architecutre of Django?
+ Django uses the MVT (Model–View–Template) architecture. The Model manages the database structure
+ and data operations, the View contains the application logic and processes user requests, and the
+ Template handles the UI/layout shown to the user. Django’s framework connects these components
+ automatically, helping developers build clean, maintainable applications.
+
+3) What is ORM features of Django?
+ Django’s ORM (Object-Relational Mapping) allows developers to interact with the database using Python
+ classes instead of writing SQL queries. It simplifies CRUD operations, ensures security, reduces errors,
+ and supports multiple databases. ORM improves productivity by letting developers focus on business logic
+ rather than database code.
+
+4) What do u mean by CSRF_Token
+ A CSRF token is a unique, hidden security value added to forms to prevent Cross-Site Request Forgery attacks.
+ It ensures that only requests coming from your own website (authenticated) are accepted, protecting users from unauthorized or
+ malicious actions.
+ Servers generate unique, unpredictable tokens per session/form, embedding them hidden in HTML.
+ Browser auto-sends token with requests; server validates match before processing—blocks cross-site forgery.
+ Rotate tokens post-submit for security.
+
+5) What is render function?
+  The render function in Django combines a template with a context dictionary and returns an HTML
+  response to the browser. It simplifies the process of passing data to templates and generating
+  server-side views.
+
+6) How does django handle user auth?
+ Django includes a built-in authentication system that manages user login, logout, password hashing,
+ permissions, sessions, and user creation. It provides ready to use views, middleware, and database
+ models to implement secure authentication easily.
+
+7) what is the use of django admin tool?
+ Django Admin is an auto generated backend interface that allows administrators to manage data, users,
+ and models without coding. It supports CRUD operations and provides filters, search, and permission management.
+
+8) what is jinja2 template?
+ Jinja2 is a fast, expressive templating engine used by Django (through Django templates) to dynamically
+ generate HTML. It supports variables, loops, filters, and conditional statements to render data from views.
+ Jinja2 template is a Python-powered engine for generating dynamic content like HTML from text files with placeholders.
+ Uses {{ variables }} for data insertion, {% tags %} for logic (loops, ifs, inheritance), and filters for formatting
+ replaces placeholders with context data during render for safe, efficient templating in Flask/Django.
+ Supports inheritance for reusable base layouts and auto-escapes HTML to prevent XSS.
+
+9) what is the difference between context and context processor?
+Context is the data passed from a specific view to a template during rendering.
+A context processor is a function that automatically injects common data into every
+template (such as user info or settings) without passing it manually in each view.
+
+10) What is django middleware?
+ Django middleware is a layer between the request and response cycle that processes requests globally.
+ It handles tasks such as authentication, sessions, security, CSRF protection, caching, and request
+ modification before reaching the view.
+
+11) what db are supported in django?
+ Django officially supports PostgreSQL, MySQL, SQLite, and Oracle. It also supports other databases
+ through third-party backends like MongoDB and MariaDB.
+
+12) explain q objects in ORM query
+Q objects allow complex queries using OR, AND, and NOT conditions. They help create dynamic filters
+and combine multiple conditions in a single query without writing raw SQL.
+
+13) what is model realtionship ? what are the difference model relationships in django?
+A model relationship defines how database tables connect. Django supports three main relationships:
+One-to-One (OneToOneField), One-to-Many (ForeignKey), and Many-to-Many (ManyToManyField). These map
+real-world data relationships inside models.
+One-to-One (OneToOneField): Single record links to exactly one other (e.g., User to Profile); uses on_delete for cascade/protect.​
+Many-to-One/ForeignKey: Multiple records link to one parent (e.g., Books to Author); creates foreign key column in child table.​
+Many-to-Many (ManyToManyField): Multiple records link both ways (e.g., Students to Courses); auto-creates join table for flexibility.​
+
+14) explain the purpose of django migrations?
+Migrations track changes to models and apply them to the database without manual SQL. They ensure
+the database schema stays in sync with model definitions as you modify fields, tables, and relationships.
+
+15) what do you mean by django lookups?
+ Django lookups are query filters used in ORM queries to match patterns or conditions, such as exact,
+ contains, icontains, gt, lt, range, and startswith. They allow detailed filtering on model fields without writing SQL.
+ Django lookups are the suffixes you add to model field names in queries (using double underscores) to specify how Django
+ should filter data, like “equals”, “contains”, “greater than”, etc. For example, if there is a Book model with a price
+ field, Book.objects.filter(price__gt=500) returns all books whose price is greater than 500, where price is the field
+ and gt (greater than) is the lookup.
