@@ -83,3 +83,34 @@ the database schema stays in sync with model definitions as you modify fields, t
  should filter data, like “equals”, “contains”, “greater than”, etc. For example, if there is a Book model with a price
  field, Book.objects.filter(price__gt=500) returns all books whose price is greater than 500, where price is the field
  and gt (greater than) is the lookup.
+
+
+16) What are different types of permission in DRF?
+  AllowAny: Permits access to everyone, authenticated or not (default if unspecified).​
+  IsAuthenticated: Requires user login; denies anonymous requests.
+​  IsAdminUser: Limits to staff users with is_staff=True and is_superuser=True.​
+  IsAuthenticatedOrReadOnly: Allows safe methods (GET, HEAD, OPTIONS) for anyone, but changes require authentication.​
+
+17) What are different types of authentication in drf?
+
+BasicAuthentication: Username/password per request (insecure without HTTPS).​
+SessionAuthentication: Cookie-based, suits browser apps.​
+TokenAuthentication: Stateless tokens exchanged for credentials on login.
+JWTAuthentication (via djangorestframework-simplejwt): JSON Web Tokens for expiration and refresh.​
+
+18) What is token authentication ? how to implement token auth?
+Token Authentication
+Token auth exchanges login credentials for a unique token stored in rest_framework.authtoken.Token model, linked to a user. Clients include it in headers as Authorization: Token <your_token_key> for requests; DRF sets request.user and request.auth on success.
+​
+Implementation Steps
+Install and add 'rest_framework.authtoken' to INSTALLED_APPS in settings.py.
+Run python manage.py migrate to create the token table.
+Configure in settings.py:
+text
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': ['rest_framework.authentication.TokenAuthentication'],
+    'DEFAULT_PERMISSION_CLASSES': ['rest_framework.permissions.IsAuthenticated'],
+}
+Generate tokens: Use python manage.py drf_create_token <username> (or -r to regenerate), or programmatically via Token.objects.create(user=user). Views like ObtainAuthToken handle login/token issuance.
+​
+​
