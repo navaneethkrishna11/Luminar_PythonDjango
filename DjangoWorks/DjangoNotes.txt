@@ -113,4 +113,5 @@ REST_FRAMEWORK = {
 }
 Generate tokens: Use python manage.py drf_create_token <username> (or -r to regenerate), or programmatically via Token.objects.create(user=user). Views like ObtainAuthToken handle login/token issuance.
 ​
-​
+Tokens in Django REST Framework (DRF) are unique strings generated per user for stateless authentication, stored in a database table linked to the user model. They enable secure API access without sessions by verifying identity via a simple header check, improving scalability over session-based auth since no server-side storage is needed beyond the initial token. DRF's TokenAuthentication is simpler for basic needs but lacks built-in expiration or rich claims compared to JWT.​
+
