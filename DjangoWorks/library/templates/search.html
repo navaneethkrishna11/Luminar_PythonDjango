@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block contents %}
+
+<h3 class="text-center mt-3 text-success">Search Results</h3>
+<div class="container m-4 w-50 p-5">
+<table class="table table-bordered">
+        {% if books %}
+    <tr>
+        <th>Title</th>
+        <th>Author</th>
+<!--        <th>Price</th>-->
+        <th>Pages</th>
+
+    </tr>
+
+    {% for i in books %}
+    <tr>
+        <td> {{ i.title }}</td>
+        <td> {{ i.author }}</td>
+<!--        <td> {{ i.pages }}</td>-->
+        <td> {{ i.price }}</td>
+        </tr>
+    {% endfor %}
+    {% else %}
+    <tr><td colspan="4" class="text-center">No results found.</td></tr>
+{% endif %}
+</table>
+</div>
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block contents %}
+<body>
+  <div class="container d-flex justify-content-center my-5">
+    <div class="card p-4 shadow " style="min-width: 700px;">
+        <h2 class="text-center">School List</h2>
+      <ol class="fs-3 mb-0">
+        {% for i in school %}
+          <li><a href="{% url 'detailview' i.id %}" class="text-decoration-none">{{ i.name }}</a></li>
+        {% endfor %}
+      </ol>
+
+    </div>
+  </div>
+</body>
+{% endblock %}

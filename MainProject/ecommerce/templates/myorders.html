@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% block contents %}
+
+<div class="container my-4">
+
+    {% for i in orders %}
+    <div class="card shadow-sm mb-4">
+        <div class="card-header  text-white" style="background: #b0b435;">
+            <h5 class="mb-0">Order ID: {{ i.order_id }}</h5>
+        </div>
+
+        <div class="card-body">
+            <p><strong>Amount:</strong> ₹{{ i.amount }}</p>
+            <p><strong>Ordered On:</strong> {{ i.ordered_Date }}</p>
+            <p>
+                <strong>Status:</strong>
+                <span class="badge
+                    {% if i.delivery_status == 'pending' %}
+                        bg-warning text-dark
+                    {% elif i.delivery_status == 'delivered' %}
+                        bg-success
+                    {% else %}
+                        bg-info
+                    {% endif %}
+                ">
+                    {{ i.delivery_status }}
+                </span>
+            </p>
+
+            <hr>
+
+            <h6 class="mb-3">Items in this Order:</h6>
+
+            <div class="row">
+                {% for j in i.products.all %}
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="{{ j.product.image.url }}" class="card-img-top" style="height:180px; object-fit:cover;">
+
+                        <div class="card-body">
+                            <h6 class="card-title">{{ j.product.name }}</h6>
+                            <p class="card-text mb-1">Price: ₹{{ j.product.price }}</p>
+                            <p class="card-text">Quantity: {{ j.quantity }}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+
+</div>
+
+{% endblock %}

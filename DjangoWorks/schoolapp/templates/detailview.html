@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block contents %}
+<body>
+  <div class="container my-5 d-flex justify-content-center">
+    <div class="card shadow p-4" style="min-width: 700px; background-color: #e9f7f7;">
+      <h2 class="text-center mb-4">School Data</h2>
+      <div class="list-group fs-5">
+        <div class="list-group-item mb-2 rounded" style="background-color: #ffffff;">
+          <div class="row">
+            <div class="col-md-4"><strong>Name:</strong> {{ school.name }}</div>
+            <div class="col-md-4"><strong>Principal:</strong> {{ school.principal }}</div>
+            <div class="col-md-4"><strong>Location:</strong> {{ school.location }}</div>
+          </div>
+            {% if user.is_authenticated %}
+      {% if user.is_superuser == False %}
+      <div class="text-center border border-success bg-primary m-3 p-3">
+        {% if can_join %}
+        <a href="{% url 'studentjoin' school.id %}" style="text-decoration:none;color:white;">Join Now</a>
+           {% endif %}
+        {% if is_student %}
+      <a href="{% url 'leavenow' %}" class="btn btn-danger">Leave Now</a>
+     {% endif %}
+      </div>
+      {% endif %}
+      {% endif %}
+            {% if user.is_authenticated %}
+            {% if user.is_superuser == True %}
+            <h5 class="text-center p-4">Joined students list</h5>
+            <ul>
+             {% for j in school.students.all %}
+               <li>Name : {{j.name}}, Age : {{j.age}}, Place : {{j.place}}</li>
+            {% endfor %}
+             </ul>
+      {% endif %}
+      {% endif %}
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+{% endblock %}

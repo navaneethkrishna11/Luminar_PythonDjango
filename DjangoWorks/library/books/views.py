@@ -59,3 +59,14 @@ class DeleteView(View):
         b=Book.objects.get(id=i)
         b.delete()
         return redirect('books:viewbooks')
+from django.db.models import Q
+class SearchView(View):
+    def get(self,request):
+        query=request.GET['q']
+        # print(query)
+        # orm query to filter records from table (two or more recrds) :lookups
+        # contains : in anywhere, icontains : case insensitive
+        b=Book.objects.filter(Q(title__icontains=query) | Q(author__icontains=query) | Q(language__icontains=query))
+        context={'books':b}
+        print(b)
+        return render(request,'search.html',context)

@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block contents %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+<div class="text-center p-4">
+    <h1>Login page</h1>
+<div>
+      <form method="post" enctype="multipart/form-data" class="p-4 border rounded  shadow-sm" style="background-color:#70B2B2;">
+        {% csrf_token %}
+        {{ form|crispy }}
+        <div class="d-grid mt-3">
+          <button type="submit" class="btn btn-primary btn-block">Sign Up</button>
+        </div>
+</body>
+</html>
+{% endblock %}

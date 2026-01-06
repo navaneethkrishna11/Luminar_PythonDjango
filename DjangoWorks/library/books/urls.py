@@ -26,4 +26,5 @@ urlpatterns = [
    path('edit/<int:i>', views.EditView.as_view(), name='editview'),
    path('details/<int:i>', views.DetailsView.as_view(), name='detailview'),
    path('delete/<int:i>', views.DeleteView.as_view(), name='deleteview'),
+   path('search',views.SearchView.as_view(),name='search'),
 ]
