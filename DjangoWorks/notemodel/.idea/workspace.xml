@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8bdbd766-e1e1-4153-afef-2f12e7ddca74" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/Luminar.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/notemodel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/note/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/note/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/note/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/note/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/note/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FantaCode/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FantaCode/.idea/FantaCode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FantaCode/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FantaCode/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FantaCode/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FantaCode/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FantaCode/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FantaCode/moviebook/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FantaCode/moviebook/app/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FantaCode/moviebook/app/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FantaCode/moviebook/app/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FantaCode/moviebook/app/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FantaCode/moviebook/app/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FantaCode/moviebook/app/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FantaCode/moviebook/app/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FantaCode/moviebook/app/test/testdata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FantaCode/moviebook/app/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FantaCode/moviebook/app/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FantaCode/moviebook/app/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FantaCode/moviebook/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FantaCode/moviebook/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FantaCode/moviebook/moviebook/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FantaCode/moviebook/moviebook/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FantaCode/moviebook/moviebook/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FantaCode/moviebook/moviebook/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FantaCode/moviebook/moviebook/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaScript/calculator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaScript/color.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaScript/game.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaScript/js2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaScript/js3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaScript/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LibraryAPI/library/images/c48cbd42-0cce-4c0d-a9b1-e6a71fb52dde.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LibraryAPI/library/images/qh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LibraryAPI/library/images/qh_5ngfEI8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Note/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Note/.idea/Note.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Note/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Note/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Note/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Note/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Note/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Note/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Note/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Note/note/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Note/note/note/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Note/note/note/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Note/note/note/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Note/note/note/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Note/note/note/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PythonBase/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PythonBase/.idea/PythonBase.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PythonBase/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PythonBase/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PythonBase/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PythonBase/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PythonBase/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PythonBase/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RecipeAPI/recipeapi/media/images/c48cbd42-0cce-4c0d-a9b1-e6a71fb52dde.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RecipeAPI/recipeapi/media/images/markup_1000054316.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Revision/django/revision.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Revision/python/revision.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/js1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaScript/js1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/samole.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LibraryAPI/library/books/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../LibraryAPI/library/books/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LibraryAPI/library/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../../LibraryAPI/library/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LibraryAPI/library/library/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../LibraryAPI/library/library/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LibraryAPI/library/library/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../LibraryAPI/library/library/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RecipeAPI/recipeapi/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../../RecipeAPI/recipeapi/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RecipeAPI/recipeapi/recipeapi/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../RecipeAPI/recipeapi/recipeapi/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RecipeAPI/recipeapi/recipeapi/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../RecipeAPI/recipeapi/recipeapi/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RecipeAPI/recipeapi/recipes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../RecipeAPI/recipeapi/recipes/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RecipeAPI/recipeapi/recipes/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../RecipeAPI/recipeapi/recipes/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RecipeAPI/recipeapi/recipes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../RecipeAPI/recipeapi/recipes/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Revision/django/revision1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Revision/python/revision1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Revision/python/revision1.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="39xpyTNMt7xOmKAfP8UgINDA9BG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "last_opened_file_path": "N:/Luminar/Note"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="notemodel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8bdbd766-e1e1-4153-afef-2f12e7ddca74" name="Changes" comment="" />
+      <created>1771647830221</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1771647830221</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

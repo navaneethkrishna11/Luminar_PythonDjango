@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f0e635f7-0f92-48a8-a8f9-5c71d722d223" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Luminar.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/calculator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/color.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/game.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/js2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/js3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainProject/DjangoNotes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Revision/django/revision.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Revision/python/revision.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/js1.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/js1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/samole.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainProject/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MainProject/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainProject/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainProject/cart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainProject/checkout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainProject/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revision/django/revision1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revision/python/revision1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Revision/python/revision1.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="38Oo3Oh7Of85YzO36wQO8PuzRzP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "N:/Luminar/FantaCode"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0e635f7-0f92-48a8-a8f9-5c71d722d223" name="Changes" comment="" />
+      <created>1768679778505</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768679778505</updated>
+    </task>
+    <servers />
+  </component>
+</project>

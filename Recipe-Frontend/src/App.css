@@ -1,0 +1,27 @@
+/* Reset some default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page base styling */
+body {
+  background-color: #85a93d;   /* light gray (Bootstrap-like) */
+  color: #2f8a29;              /* dark readable text */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+/* Anchor tags */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #313131;
+  font-weight: 1000;
+  
+}
